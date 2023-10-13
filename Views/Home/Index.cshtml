@@ -1,0 +1,203 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+@{
+    ViewData["Title"] = "Malav's Frame Store";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malav's Frame Store</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Style the header */
+        header {
+            background-color: #433;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+            header h1 {
+                font-size: 2em;
+                margin-bottom: 10px;
+            }
+
+            header p {
+                font-size: 1.2em;
+                margin-bottom: 20px;
+            }
+
+        /* Style the product grid */
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .product {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+            .product img {
+                max-width: 100%;
+                height: auto;
+                border-radius: 5px;
+                margin-bottom: 10px;
+            }
+
+            .product h2 {
+                font-size: 1.5em;
+                margin-bottom: 10px;
+                color: #333;
+            }
+
+            .product p {
+                margin-bottom: 5px;
+            }
+
+        /* Style the footer */
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Malav's Frame Store</h1>
+        <p>Discover our latest collection</p>
+    </header>
+    <main>
+        <section class="product">
+            <h2>Clasic Frame</h2>
+            <img src="IMG\513s8B-o0GL._QL92_SH45_SS200_.jpg" alt="Beauty1">
+            <p>Color: Black</p>
+            <p>Material: Wood</p>
+            <p>Style: Fancy</p>
+            <p>Price: $150</p>
+            <p>Rating: 4</p>
+        </section>
+        <section class="product">
+            <h2>Modern Frame</h2>
+            <img src="IMG\2.jpg" alt="Beauty1">
+            <p>Color: Black</p>
+            <p>Material: Plastic</p>
+            <p>Style: Fancy</p>
+            <p>Price: $50</p>
+            <p>Rating: 3</p>
+        </section>
+        <section class="product">
+            <h2>Floating Frame</h2>
+            <img src="IMG\61rMuX-vC4L._AC_SX569_.jpg" alt="Beauty1">
+            <p>Color: White</p>
+            <p>Material: Wood</p>
+            <p>Style: Unique</p>
+            <p>Price: $250</p>
+            <p>Rating: 5</p>
+        </section>
+ 
+        <section class="product">
+            <h2>Deep-Set Frames</h2>
+            <img src="IMG\71AkklPoPvL._AC_SX569_.jpg" alt="Beauty1">
+            <p>Color: Blue</p>
+            <p>Material: Wood</p>
+            <p>Style: Fancy</p>
+            <p>Price: $280</p>
+            <p>Rating: 4</p>
+        </section>
+        <section class="product">
+            <h2>Canvas</h2>
+            <img src="IMG\71Cni8Ntm0L.__AC_SX300_SY300_QL70_ML2_.jpg" alt="Beauty1">
+            <p>Color: Grey</p>
+            <p>Material: Metal</p>
+            <p>Style: 20's</p>
+            <p>Price: $190</p>
+            <p>Rating: 4</p>
+        </section>
+        <section class="product">
+            <h2>Tabletop Frames</h2>
+            <img src="IMG\71r1gDQvWvL._AC_SX569_.jpg" alt="Beauty1">
+            <p>Color: Black</p>
+            <p>Material: Wood</p>
+            <p>Style: Steel</p>
+            <p>Price: $89</p>
+            <p>Rating: 4</p>
+        </section>
+        <section class="product">
+            <h2>Poster</h2>
+            <img src="IMG\71stw9yDTML.__AC_SX300_SY300_QL70_ML2_.jpg" alt="Beauty1">
+            <p>Color: Black</p>
+            <p>Material: Thick Paper</p>
+            <p>Style: Titanium</p>
+            <p>Price: $449</p>
+            <p>Rating: 5</p>
+        </section>
+        <section class="product">
+            <h2>Old Gold</h2>
+            <img src="IMG\81RgCTK8wtL._AC_SX569_.jpg" alt="Beauty1">
+            <p>Color: Golden</p>
+            <p>Material: Gold Plated</p>
+            <p>Style: Premium</p>
+            <p>Price: $999</p>
+            <p>Rating: 5</p>
+        </section>
+        <section class="product">
+            <h2>Silver</h2>
+            <img src="IMG\9.jpg" alt="Beauty1">
+            <p>Color: Silver</p>
+            <p>Material: Silver Plated</p>
+            <p>Style: Premium</p>
+            <p>Price: $699</p>
+            <p>Rating: 5</p>
+        </section>
+        <section class="product">
+            <h2>Poly</h2>
+            <img src="IMG\10.jpg" alt="Beauty1">
+
+            <p>Color: Red</p>
+            <p>Material: Polycarbonate</p>
+            <p>Style: Classic</p>
+            <p>Price: $199</p>
+            <p>Rating: 3</p>
+        </section>
+    </main>
+    <footer>
+        &copy; 2023 Frame Store
+    </footer>
+</body>
+</html>
